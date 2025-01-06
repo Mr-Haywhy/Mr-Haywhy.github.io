@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio site template</title>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--────────────────Header───────────────-->
+      <header>
+        <a class="logo" href="#home">
+          <p>ENIOLAWU</p>
+        </a>
+        <nav>
+          <ul class="nav-bar">
+            <div class="bg"></div>
+            <li><a class="nav-link active" href="#home">Home</a></li>
+            <li>
+              <a class="nav-link" href="#projects" target="_blank">Projects</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact" target="_blank">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav-mobile">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!--─────────────────Home────────────────-->
+        <!--       <div class="mine">
+        <img class="t-2 image" width="200px" height="200px" src="new.JPG" alt="" />
+      </div> -->
+        <div id="home">
+          <div class="filter"></div>
+          <section class="intro">
+            <h3>
+              I am AKINYEMI Blessing Tosin
+              <hr />
+            </h3>
+            <p>I'm a Full Stack Web-Developer</p>
+            <p>
+              I love the tech community and I hope we can help you with your
+              dream website
+            </p>
+            <p></p>
+
+            <!--────social media links─────-->
+
+            <div class="social-media">
+              <a href="https://codepen.io/mr-haywhy" target="_blank"
+                ><i class="fab fa-codepen"></i>
+                <img src="/codepen.jpeg" alt="codepen" />
+              </a>
+              <a href="#" target="_blank"
+                ><i class="fab fa-twitter"></i>
+                <img src="/Twitter.jpeg" alt="Twitter" />
+              </a>
+              <a href="https://github.com/Mr-Haywhy" target="_blank"
+                ><i class="fab fa-github"></i
+                ><img src="/git.jpeg" alt="Git-Hub"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/blessing-tosin-akinyemi-08775a164/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+                ><img src="/OIP.jpeg" alt="LinkedIn" />
+              </a>
+            </div>
+          </section>
+        </div>
+
+        <!--───────────────Projects───────────────-->
+        <div id="projects">
+          <h3>
+            My Projects.
+            <hr />
+          </h3>
+          <p>Here are some of my projects, you may like.</p>
+          <div class="work-box">
+            <div class="work">
+              <!--───────────────card───────────────-->
+              <div class="card">
+                <img class="work-img" src="/tribute.jpg" />
+                <a
+                  href="https://codepen.io/mr-haywhy/pen/xxjJbJg"
+                  target="_blank"
+                >
+                  <!--Link to project-->
+                  <div class="work-content">
+                    <p>HTML Tribute Page on Codepen.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/Mr-Ade.jpg" />
+                <a
+                  href="https://codepen.io/mr-haywhy/pen/QWrxMqR"
+                  target="_blank"
+                >
+                  <!--Link to project-->
+                  <div class="work-content">
+                    <p>Student Report Sheet</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-------------------Hobbies---------------->
+        <div id="projects">
+          <h3>
+            My Hobbies.
+            <hr />
+          </h3>
+          <p>These are the things I love to spend my time exploring</p>
+          <div class="work-box">
+            <div class="work">
+              <!--───────────────card───────────────-->
+              <div class="card">
+                <img class="work-img" src="/sound.jpeg" />
+                <a
+                  href="https://codepen.io/mr-haywhy/pen/xxjJbJg"
+                  target="_blank"
+                >
+                  <!--Link to project-->
+                  <div class="hobies-content">
+                    <p>Working as a Sound Engineer.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/car.jpeg" />
+                <a
+                  href="https://codepen.io/mr-haywhy/pen/QWrxMqR"
+                  target="_blank"
+                >
+                  <!--Link to project-->
+                  <div class="hobbies-content">
+                    <p>Love Car Photography</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--──────────────Contact────────────────-->
+        <div id="contact">
+          <!--────social media links─────-->
+          <h3>
+            Contact.
+            <hr />
+          </h3>
+          <p>Feel free to contact me on my social media.</p>
+          <div class="social-media">
+            <a href="#" target="_blank"
+              ><i class="fab fa-codepen"></i>Codepen</a
+            >
+            <a href="#" target="_blank"
+              ><i class="fab fa-twitter"></i>Twitter</a
+            >
+            <a href="#" target="_blank"><i class="fab fa-github"></i>Git-Hub</a>
+            <a href="#" target="_blank"
+              ><i class="fab fa-linkedin-in"></i>LinkedIn</a
+            >
+          </div>
+
+          <form action="submit">
+            <div class="form">
+              <label for="email">E-mail:</label>
+              <input
+                type="text"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="yourmail@example.com"
+                required
+              />
+            </div>
+            <div class="form">
+              <label for="fname">First Name:</label>
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="fname"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div class="form">
+              <label for="lname">Last Name:</label>
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="lname"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <div class="form">
+              <label for="message">Message:</label>
+              <textarea
+                name="about"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Comment here.........."
+              ></textarea>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer class="copyright">
+        © 2022
+        <a href="#https://replit.com/@Mr-Haywhy" target="_blank"
+          >Blessing Akinyemi</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
